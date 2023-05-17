@@ -68,7 +68,7 @@ h3,
 .h3,
 h4,
 .h4 {
-    font-family: "Mulish", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #dddde6;
 }
 
@@ -156,34 +156,6 @@ h4,
         padding-right: 15px;
         padding-left: 15px;
     }
-}
-
-.spinner-border {
-    color: #ff2e63;
-}
-
-/*PRELOADING------------ */
-
-#overlayer {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 7100;
-    background: #ffffff;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.loader {
-    z-index: 7700;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 
 .logo {
@@ -1745,13 +1717,13 @@ figure.dotted-bg:before {
 }
 
 .site-footer {
-    background: #222;
-    color: #aaa;
-    padding: 70px 0;
+    background: #000000;
+    color: #ffffff;
+    padding: 1px 0;
 }
 
 .site-footer a {
-    color: #777;
+    color: #ffffff;
     position: relative;
     display: inline-block;
 }
@@ -1761,7 +1733,7 @@ figure.dotted-bg:before {
 }
 
 .site-footer a:hover:before {
-    background: #ff2e63;
+    background: #ffffff;
 }
 
 .site-footer .btn:before {
@@ -1778,7 +1750,7 @@ figure.dotted-bg:before {
 }
 
 .site-footer .widget h3 {
-    font-size: 16px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 30px;
@@ -1819,3 +1791,17 @@ figure.dotted-bg:before {
     background: #ff6189;
     color: #ffffff;
 }
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content h3 {
+    margin-top: 1rem;
+}
+.site-footer .row {
+    display: flex;
+    align-items: center;
+}
+
